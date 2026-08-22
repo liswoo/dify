@@ -298,7 +298,7 @@ describe('app-publisher sections', () => {
     expect(screen.getByText(/(?:^|\.)publishLimit\.startNodeDesc(?=$|:)/)).toBeInTheDocument()
   })
 
-  it('should render the published workflow actions with Workflow as Tool after Marketplace', async () => {
+  it('should render the published Human Input workflow actions with Workflow as Tool after Marketplace', async () => {
     const user = userEvent.setup()
     const handleOpenRunConfig = vi.fn()
     const onConfigureWorkflowTool = vi.fn()
@@ -320,7 +320,7 @@ describe('app-publisher sections', () => {
         disabledFunctionButton={false}
         disabledFunctionTooltip="disabled"
         handleOpenRunConfig={handleOpenRunConfig}
-        hasHumanInputNode={false}
+        hasHumanInputNode
         hasTriggerNode={false}
         publishedAt={Date.now()}
         showDeployAction
