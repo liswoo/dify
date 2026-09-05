@@ -512,6 +512,7 @@ describe('app-publisher sections', () => {
         hasTriggerNode={false}
         publishedAt={Date.now()}
         showDeployAction
+        showWorkflowTool
         workflowToolAvailable
         workflowToolIsLoading={false}
         onConfigureWorkflowTool={vi.fn()}
