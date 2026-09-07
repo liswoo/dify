@@ -4484,11 +4484,6 @@
       "count": 2
     }
   },
-  "web/app/components/workflow/run/iteration-log/iteration-log-trigger.tsx": {
-    "unicorn/prefer-number-properties": {
-      "count": 1
-    }
-  },
   "web/app/components/workflow/run/iteration-log/iteration-result-panel.tsx": {
     "jsx-a11y/click-events-have-key-events": {
       "count": 2
@@ -4511,11 +4506,6 @@
   "web/app/components/workflow/run/loop-log/index.tsx": {
     "no-barrel-files/no-barrel-files": {
       "count": 2
-    }
-  },
-  "web/app/components/workflow/run/loop-log/loop-log-trigger.tsx": {
-    "unicorn/prefer-number-properties": {
-      "count": 1
     }
   },
   "web/app/components/workflow/run/loop-log/loop-result-panel.tsx": {
