@@ -192,6 +192,7 @@ def initialize_extensions(app: DifyApp):
         ext_mail,
         ext_migrate,
         ext_oauth_bearer,
+        ext_ops_trace,
         ext_orjson,
         ext_otel,
         ext_proxy_fix,
@@ -238,6 +239,7 @@ def initialize_extensions(app: DifyApp):
         ext_request_logging,
         ext_session_factory,
         ext_application_services,
+        ext_ops_trace,
         ext_oauth_bearer,
     ]
     for ext in extensions:
